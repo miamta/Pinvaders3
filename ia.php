@@ -37,6 +37,8 @@ public function setFila($fil) {
 
 //random
 public function RandomPos(){
+  $this->fila=rand(0,3);
+  $this->columna=rand(0,3);
 }
 }
 
